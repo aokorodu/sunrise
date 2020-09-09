@@ -1,0 +1,93 @@
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#holder{
+    margin:auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    
+}
+
+.svgHolder {
+    width: 50vmin;
+    height: 50vmin;
+    max-width: 700px;
+    overflow: hidden;
+    border-radius: 5%;
+    border: 2px solid #eaeaea;
+    box-shadow: 0px 0px 6px 6px #eaeaea;
+}
+
+#slider{
+    margin-top: 20px;
+    -webkit-appearance: none;
+    width: 50vmin;
+    max-width: 700px;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;  
+}
+
+#slider::-webkit-slider-runnable-track{
+    background-image: linear-gradient(90deg, #BBDCF9, #CF6400, #033866);
+    border-radius: 15px;    
+    outline: none;
+    box-shadow: 0px 0px 6px 6px #eaeaea;
+    height: 26px;
+}
+
+#slider::-moz-range-track{
+    background-image: linear-gradient(90deg, #BBDCF9, #CF6400, #033866);
+    border-radius: 15px;    
+    outline: none;
+    box-shadow: 0px 0px 6px 6px #eaeaea;
+    height: 26px;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    transform: translate(0.5px, -2px);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    cursor: pointer;
+    border: 2px solid white;
+    background-image: url('../svgs/moon_final.svg');
+    background-position: center center;
+  }
+
+  #slider::-moz-range-thumb {
+    appearance: none;
+    transform: translate(0.5px, -2px);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    cursor: pointer;
+    border: 2px solid white;
+    background-image: url('../svgs/moon_final.svg');
+    background-position: center center;
+  }
+
+
+
+#sliderHolder{
+    width: 412px;
+    overflow: hidden;
+}
+
+.label {
+    margin: 10px;
+    font-family: 'Spartan', sans-serif;
+    color: rgb(100, 100, 100);
+}

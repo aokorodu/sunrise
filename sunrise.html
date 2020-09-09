@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/gsap/TweenMax.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+</head>
+
+<body onload="init()">
+    <div id="holder">
+        <div class="svgHolder">
+            <svg viewBox="0 0 731 731" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <linearGradient x1="47.0873786%" y1="76.3661202%" x2="50%" y2="0%" id="grassGradient">
+                        <stop stop-color="#67C200" offset="0%"></stop>
+                        <stop stop-color="#4F9103" offset="100%"></stop>
+                    </linearGradient>
+                    <linearGradient x1="47.0873786%" y1="76.3661202%" x2="50%" y2="0%" id="linearGradient-1">
+                        <stop stop-color="#BBDCF9" offset="0%"></stop>
+                        <stop stop-color="#3B89E5" offset="100%"></stop>
+                    </linearGradient>
+                    <linearGradient x1="47.0873786%" y1="76.3661202%" x2="50%" y2="0%" id="linearGradient-2">
+                        <stop stop-color="#033866" offset="0%"></stop>
+                        <stop stop-color="#000000" offset="100%"></stop>
+                    </linearGradient>
+                    <radialGradient cx="50%" cy="130%" r="70%" fx="50%" fy="100%" id="linearGradient-3">
+                        <stop stop-color="#F79D0B" offset="0%"></stop>
+                        <stop stop-color="#CF6400" offset="100%"></stop>
+                    </radialGradient>
+                    <filter id="blurMe">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+                    </filter>
+                </defs>
+                <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Group" fill-rule="nonzero">
+                        <rect id="Sky" stroke="#979797" fill="url(#linearGradient-1)" x="0" y="0" width="731"
+                            height="731"></rect>
+                        <rect id="NightSky" fill="url(#linearGradient-2)" opacity="0.0" x="0" y="0" width="731"
+                            height="731"></rect>
+                        <rect id="OrangeSky" fill="url(#linearGradient-3)" opacity="0.0" x="0" y="0" width="731"
+                            height="731"></rect>
+                        <g id="Stars" transform="translate(61, 10)" fill="#FFFFFF" opacity="0.0">
+                            <polygon id="star_18"
+                                transform="translate(450.500000, 202.738729) rotate(180.000000) translate(-450.500000, -202.738729) "
+                                points="450.5 204.227458 449.030537 205 449.311179 203.363729 448.122359 202.204916 449.765268 201.966187 450.5 200.477458 451.234732 201.966187 452.877641 202.204916 451.688821 203.363729 451.969463 205">
+                            </polygon>
+                            <polygon id="star_17"
+                                transform="translate(506.377641, 424.261271) rotate(180.000000) translate(-506.377641, -424.261271) "
+                                points="506.377641 425.75 504.908178 426.522542 505.18882 424.886271 504 423.727457 505.642909 423.488728 506.377641 422 507.112373 423.488728 508.755282 423.727457 507.566462 424.886271 507.847104 426.522542">
+                            </polygon>
+                            <polygon id="star_16"
+                                transform="translate(499.500000, 287.738729) rotate(180.000000) translate(-499.500000, -287.738729) "
+                                points="499.5 289.227458 498.030537 290 498.311179 288.363729 497.122359 287.204915 498.765268 286.966186 499.5 285.477458 500.234732 286.966186 501.877641 287.204915 500.688821 288.363729 500.969463 290">
+                            </polygon>
+                            <polygon id="star_15"
+                                transform="translate(360.500000, 259.738729) rotate(180.000000) translate(-360.500000, -259.738729) "
+                                points="360.5 261.227458 359.030537 262 359.311179 260.363729 358.122359 259.204916 359.765268 258.966187 360.5 257.477458 361.234732 258.966187 362.877641 259.204916 361.688821 260.363729 361.969463 262">
+                            </polygon>
+                            <polygon id="star_14"
+                                transform="translate(296.500000, 227.738729) rotate(180.000000) translate(-296.500000, -227.738729) "
+                                points="296.5 229.227458 295.030537 230 295.311179 228.363729 294.122359 227.204916 295.765268 226.966187 296.5 225.477458 297.234732 226.966187 298.877641 227.204916 297.688821 228.363729 297.969463 230">
+                            </polygon>
+                            <polygon id="star_13"
+                                transform="translate(277.500000, 264.738729) rotate(180.000000) translate(-277.500000, -264.738729) "
+                                points="277.5 266.227458 276.030537 267 276.311179 265.363729 275.122359 264.204916 276.765268 263.966187 277.5 262.477458 278.234732 263.966187 279.877641 264.204916 278.688821 265.363729 278.969463 267">
+                            </polygon>
+                            <polygon id="star_12"
+                                transform="translate(300.500000, 335.738729) rotate(180.000000) translate(-300.500000, -335.738729) "
+                                points="300.5 337.227458 299.030537 338 299.311179 336.363729 298.122359 335.204915 299.765268 334.966186 300.5 333.477458 301.234732 334.966186 302.877641 335.204915 301.688821 336.363729 301.969463 338">
+                            </polygon>
+                            <polygon id="star_11"
+                                transform="translate(2.377641, 395.261271) rotate(180.000000) translate(-2.377641, -395.261271) "
+                                points="2.377641 396.75 0.908178 397.522542 1.18882 395.886271 0 394.727457 1.642909 394.488728 2.377641 393 3.112373 394.488728 4.755282 394.727457 3.566462 395.886271 3.847104 397.522542">
+                            </polygon>
+                            <polygon id="star_10"
+                                transform="translate(172.500000, 232.738729) rotate(180.000000) translate(-172.500000, -232.738729) "
+                                points="172.5 234.227458 171.030537 235 171.311179 233.363729 170.122359 232.204916 171.765268 231.966187 172.5 230.477458 173.234732 231.966187 174.877641 232.204916 173.688821 233.363729 173.969463 235">
+                            </polygon>
+                            <polygon id="star_9"
+                                points="223.5 136.75 222.030537 137.522542 222.311179 135.886271 221.122359 134.727458 222.765268 134.488729 223.5 133 224.234732 134.488729 225.877641 134.727458 224.688821 135.886271 224.969463 137.522542">
+                            </polygon>
+                            <polygon id="star_8"
+                                points="628.377641 376.75 626.908178 377.522542 627.18882 375.886271 626 374.727458 627.642909 374.488729 628.377641 373 629.112373 374.488729 630.755282 374.727458 629.566462 375.886271 629.847104 377.522542">
+                            </polygon>
+                            <polygon id="star_7"
+                                points="174.5 51.75 173.030537 52.5225425 173.311179 50.8862712 172.122359 49.7274575 173.765268 49.4887288 174.5 48 175.234732 49.4887288 176.877641 49.7274575 175.688821 50.8862712 175.969463 52.5225425">
+                            </polygon>
+                            <polygon id="star_6"
+                                points="571.377641 56.75 569.908178 57.522542 570.18882 55.886271 569 54.727458 570.642909 54.488729 571.377641 53 572.112373 54.488729 573.755282 54.727458 572.566462 55.886271 572.847104 57.522542">
+                            </polygon>
+                            <polygon id="star_5"
+                                points="377.5 111.75 376.030537 112.522542 376.311179 110.886271 375.122359 109.727458 376.765268 109.488729 377.5 108 378.234732 109.488729 379.877641 109.727458 378.688821 110.886271 378.969463 112.522542">
+                            </polygon>
+                            <polygon id="star_4"
+                                points="43.377641 300.75 41.908178 301.522542 42.18882 299.886271 41 298.727458 42.642909 298.488729 43.377641 297 44.112373 298.488729 45.755282 298.727458 44.566462 299.886271 44.847104 301.522542">
+                            </polygon>
+                            <polygon id="star_3"
+                                points="373.5 3.75 372.030537 4.5225425 372.311179 2.8862712 371.122359 1.7274575 372.765268 1.4887288 373.5 0 374.234732 1.4887288 375.877641 1.7274575 374.688821 2.8862712 374.969463 4.5225425">
+                            </polygon>
+                            <polygon id="star_2"
+                                points="38.377641 104.75 36.908178 105.522543 37.18882 103.886271 36 102.727457 37.642909 102.488729 38.377641 101 39.112373 102.488729 40.755282 102.727457 39.566462 103.886271 39.847104 105.522543">
+                            </polygon>
+                            <polygon id="star_1"
+                                points="501.5 106.75 500.030537 107.522542 500.311179 105.886271 499.122359 104.727458 500.765268 104.488729 501.5 103 502.234732 104.488729 503.877641 104.727458 502.688821 105.886271 502.969463 107.522542">
+                            </polygon>
+                        </g>
+                        <line id="Comet" x1='0' y1='0' x2='0' y2='0' stroke="#FFFFFF" stroke-width="2" opacity="0.5">
+                        </line>
+                        <g id="Sun" transform="translate(365, 350)">
+                            <circle id="Oval-Copy" class="aura" opacity=".1" fill="#F8F8F2" cx="0" cy="0" r="105">
+                            </circle>
+                            <circle id="Oval-Copy-2" class="aura" opacity=".15" fill="#F8F8F2" cx="0" cy="0" r="95">
+                            </circle>
+                            <circle id="Oval-Copy-3" class="aura" opacity=".2" fill="#F8F8F2" cx="0" cy="0" r="85">
+                            </circle>
+                            <circle id="afternoon-sun" fill="#FAF4A9" cx="0" cy="0" r="73.5"></circle>
+                            <circle id="evening-sun" opacity="0" fill="#F8A200" filter="url(#blurMe)" cx="0" cy="0"
+                                r="73.5"></circle>
+                        </g>
+                        <g id="Moon" transform="translate(365, -160) scale(.1, .1)">
+                            <circle cx="0" cy="0" r="77" style="fill: #e6e6e6" />
+                            <circle cx="-22" cy="-37" r="10" style="fill: #ccc" />
+                            <circle cx="-27" cy="13" r="7" style="fill: #ccc" />
+                            <circle cx="13" cy="-11" r="3" style="fill: #ccc" />
+                            <circle cx="23" cy="-30" r="9" style="fill: #ccc" />
+                            <circle cx="24" cy="50" r="14" style="fill: #ccc" />
+                            <circle cx="-2" cy="20" r="3" style="fill: #ccc" />
+                            <circle cx="-57" cy="-17" r="6" style="fill: #ccc" />
+                            <circle cx="-47" cy="50" r="5" style="fill: #ccc" />
+                            <circle cx="20" cy="8" r="8" style="fill: #ccc" />
+                        </g>
+                        <g id="Clouds" opacity="1">
+                            <g id="Cloud_1" transform="translate(-100, 228.000000)" fill="#FFFFFF" opacity="0.9">
+                                <ellipse id="Oval" cx="68.5" cy="30" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="124.5" cy="90" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="104.5" cy="53" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="161.5" cy="53" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="46.5" cy="70" rx="46.5" ry="30"></ellipse>
+                            </g>
+                            <g id="Cloud_2" transform="translate(195.000000, 376.000000)" fill="#FFFFFF" opacity="0.9">
+                                <ellipse id="Oval" cx="114.5" cy="50" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="139.5" cy="73" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="46.5" cy="60" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="161.5" cy="30" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="92.5" cy="90" rx="46.5" ry="30"></ellipse>
+                            </g>
+                            <g id="Cloud_3" transform="translate(450.000000, 181.000000)" fill="#FFFFFF" opacity="0.9">
+                                <ellipse id="Oval" cx="114.5" cy="30" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="139.5" cy="53" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="46.5" cy="40" rx="46.5" ry="30"></ellipse>
+                                <ellipse id="Oval" cx="73.5" cy="53" rx="46.5" ry="30"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Mountains" transform="translate(-1.000000, 605.000000)" fill-rule="nonzero" opacity="1">
+                            <polygon id="mountain_7" fill="#234001" points="422.5 37 526 130 319 130"></polygon>
+                            <polygon id="mountain_7-copy" fill="#234001" points="563.5 10 646 120 481 120"></polygon>
+                            <polygon id="mountain_6" fill="#223F00" points="273.5 0 411 130 136 130"></polygon>
+                            <polygon id="mountain_6-copy" fill="#223F00" points="0.5 37 138 130 0.5 130"></polygon>
+                            <polygon id="mountain_5" fill="#294C00" points="164.5 27 268 130 61 130"></polygon>
+                            <polygon id="mountain_5-copy" fill="#294C00" points="663 53 733 130 593 130"></polygon>
+                            <polygon id="mountain_4" fill="#294C00" points="371.5 27 475 130 268 130"></polygon>
+                            <polygon id="mountain_3" fill="#3A6A03" points="330.5 27 434 130 227 130"></polygon>
+                            <polygon id="mountain_3-copy" fill="#3A6A03" points="616 65 731 130 501 130"></polygon>
+                            <polygon id="mountain_3-copy-2" fill="#3A6A03" points="489.5 45 593 130 386 130"></polygon>
+                            <polygon id="mountain_3-copy-3" fill="#3A6A03" points="733.5 45 734 130 630 130"></polygon>
+                            <polygon id="mountain_2" fill="#468300" points="104.5 37 208 130 1 130"></polygon>
+                            <polygon id="mountain_1" fill="#4F9103" points="239.5 53 343 130 136 130"></polygon>
+                            <polygon id="mountain_1-copy" fill="#4F9103" points="434.5 79 538 130 331 130"></polygon>
+                            <polygon id="mountain_1-copy-2" fill="#4F9103" points="657 79 733 130 581 130"></polygon>
+                        </g>
+                        <g id="Grass">
+                            <rect x='0' y='700' width="731" height='32' fill="url(#grassGradient)"></rect>
+                        </g>
+                        <g id="ShadowMountains" transform="translate(-1.000000, 605.000000)" fill-rule="nonzero"
+                            opacity="0">
+                            <polygon id="mountain_7" fill="#000000" points="422.5 37 526 130 319 130"></polygon>
+                            <polygon id="mountain_7-copy" fill="#000000" points="563.5 10 646 120 481 120"></polygon>
+                            <polygon id="mountain_6" fill="#000000" points="273.5 0 411 130 136 130"></polygon>
+                            <polygon id="mountain_6-copy" fill="#000000" points="0.5 37 138 130 0.5 130"></polygon>
+                            <polygon id="mountain_5" fill="#000000" points="164.5 27 268 130 61 130"></polygon>
+                            <polygon id="mountain_5-copy" fill="#000000" points="663 53 733 130 593 130"></polygon>
+                            <polygon id="mountain_4" fill="#000000" points="371.5 27 475 130 268 130"></polygon>
+                            <polygon id="mountain_3" fill="#000000" points="330.5 27 434 130 227 130"></polygon>
+                            <polygon id="mountain_3-copy" fill="#000000" points="616 65 731 130 501 130"></polygon>
+                            <polygon id="mountain_3-copy-2" fill="#000000" points="489.5 45 593 130 386 130"></polygon>
+                            <polygon id="mountain_3-copy-3" fill="#000000" points="733.5 45 734 130 630 130"></polygon>
+                            <polygon id="mountain_2" fill="#000000" points="104.5 37 208 130 1 130"></polygon>
+                            <polygon id="mountain_1" fill="#000000" points="239.5 53 343 130 136 130"></polygon>
+                            <polygon id="mountain_1-copy" fill="#000000" points="434.5 79 538 130 331 130"></polygon>
+                            <polygon id="mountain_1-copy-2" fill="#000000" points="657 79 733 130 581 130"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <input id="slider" type="range" min="0" max="90" value="0">
+        <div class="label">drag the slider</div>
+    </div>
+
+</body>
+<script>
+    let active = true;
+    let timeStamp = 0;
+    let deltaTime = 0;
+
+    let op = .1;
+    let w = 731;
+    let h = 735;
+
+    let slider = document.getElementById("slider");
+    let auras = document.getElementsByClassName('aura');
+    const OrangeSky = document.getElementById('OrangeSky');
+    const NightSky = document.getElementById('NightSky');
+    const Clouds = document.getElementById('Clouds');
+    const Sun = document.getElementById('Sun');
+    const EveningSun = document.getElementById('evening-sun');
+    const Moon = document.getElementById('Moon');
+    const ShadowMountains = document.getElementById('ShadowMountains');
+    const Stars = document.getElementById('Stars');
+    const Comet = document.getElementById('Comet');
+    const prop = { val: 0 };
+
+    const speeds = {
+        'Cloud_1': 0.05 + Math.random() * 0.1,
+        'Cloud_2': 0.05 + Math.random() * 0.1,
+        'Cloud_3': 0.05 + Math.random() * 0.1,
+    }
+
+    const comet = {
+        x: 0,
+        y: 0,
+        v: { x: 0, y: 5 },
+        x_old: 0,
+        y_old: 0,
+        speed: 5,
+        paused: false,
+        pauseTimer: 0,
+        pauseMax: 50,
+        update: function (element, delta) {
+            if (!delta) {
+                console.log('delta is not a number!');
+                return;
+            }
+
+            if (this.paused) {
+                if (this.pauseTimer++ >= this.pauseMax) {
+                    this.paused = false;
+                    this.pauseTimer = 0
+                } else {
+                    return;
+                }
+            }
+
+            this.x += this.v.x * delta;
+            this.y += this.v.y * delta;
+            this.x_old = this.x - 3 * (this.v.x * delta);
+            this.y_old = this.y - 3 * (this.v.y * delta);
+            if (this.x < 0 || this.x > 432 || this.y > 800) {
+                this.reset();
+            }
+            element.setAttribute('x1', this.x);
+            element.setAttribute('y1', this.y);
+            element.setAttribute('x2', this.x_old);
+            element.setAttribute('y2', this.y_old);
+            element.setAttribute('opacity', op / 2);
+        },
+        reset: function () {
+            this.x_old = this.x = 365 + (Math.random() * 730 - 365);
+            this.y_old = this.y = 0;
+            this.v.x = Math.random() * 2 - 1;
+            this.paused = true;
+            this.pauseMax = 100 + Math.random() * 200;
+        }
+    }
+
+    function init() {
+        initSlider();
+        draw();
+    }
+
+    function initSlider() {
+        console.log('init slider');
+        this.slider.oninput = function () {
+            TweenMax.to(prop, 2, { val: this.value, onUpdate: updateHandler });
+        }
+    }
+
+    function updateHandler() {
+        op = Math.sin(prop.val * Math.PI / 180);
+        const op2 = Math.abs(Math.sin(prop.val * Math.PI / 90));
+        const yPos = 350 + (op * 500);
+        const str = `translate(365, ${yPos})`;
+        Sun.setAttribute('transform', str);
+        OrangeSky.setAttribute('opacity', op2);
+        NightSky.setAttribute('opacity', op);
+        EveningSun.setAttribute('opacity', op);
+        Clouds.setAttribute('opacity', 1 - op);
+        ShadowMountains.setAttribute('opacity', op);
+        Stars.setAttribute('opacity', op);
+
+        const moonstr = `translate(365, ${yPos - 599})`;
+        Moon.setAttribute('transform', moonstr);
+    }
+
+    function draw(t) {
+        if (!active) return;
+        this.deltaTime = t - this.timeStamp;
+        this.timeStamp = t;
+        moveCloud('Cloud_1');
+        moveCloud('Cloud_2');
+        moveCloud('Cloud_3');
+        for (let aura of auras) {
+            expandAura(aura);
+        }
+        comet.update(Comet, this.deltaTime);
+        window.requestAnimationFrame(draw, 1);
+    }
+
+    function moveCloud(id) {
+        const cloud = document.getElementById(id);
+        let trans = cloud.getAttribute('transform');
+        const startX = trans.indexOf('(');
+        const endX = trans.indexOf(',');
+        const startY = trans.indexOf(',');
+        const endY = trans.indexOf(')');
+        let xPos = parseFloat(trans.substring(startX + 1, endX));
+        let yPos = parseInt(trans.substring(startY + 1, endY));
+        xPos += speeds[id];
+        if (xPos > 720) xPos = -200;
+        const newString = `translate(${xPos}, ${yPos})`;
+        cloud.setAttribute('transform', newString);
+    }
+
+    function expandAura(element) {
+        let r = parseFloat(element.getAttribute('r'));
+        r += .1;
+        if (r > 105) r = 73;
+        let op = (105 - r) / 105;
+        element.setAttribute('r', r);
+        element.setAttribute('opacity', op);
+    }
+</script>
+
+</html>

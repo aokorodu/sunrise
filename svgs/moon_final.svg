@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>moon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="moon" fill-rule="nonzero">
+            <circle id="Oval" fill="#E6E6E6" cx="15" cy="15" r="15"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="10.7142857" cy="7.79220779" r="1.94805195"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="9.74025974" cy="17.5324675" r="1.36363636"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="17.5324675" cy="12.8571429" r="1"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="19.4805195" cy="9.15584416" r="1.75324675"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="19.6753247" cy="24.7402597" r="2.72727273"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="14.6103896" cy="18.8961039" r="1"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="3.8961039" cy="11.6883117" r="1.16883117"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="5.84415584" cy="24.7402597" r="1"></circle>
+            <circle id="Oval" fill="#CCCCCC" cx="18.8961039" cy="16.5584416" r="1.55844156"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,143 @@
+<svg width="731px" height="731px" viewBox="0 0 731 731" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <linearGradient x1="47.0873786%" y1="76.3661202%" x2="50%" y2="0%" id="grassGradient">
+                    <stop stop-color="#67C200" offset="0%"></stop>
+                    <stop stop-color="#4F9103" offset="100%"></stop>
+                </linearGradient>
+                <linearGradient x1="47.0873786%" y1="76.3661202%" x2="50%" y2="0%" id="linearGradient-1">
+                    <stop stop-color="#BBDCF9" offset="0%"></stop>
+                    <stop stop-color="#3B89E5" offset="100%"></stop>
+                </linearGradient>
+                <linearGradient x1="47.0873786%" y1="76.3661202%" x2="50%" y2="0%" id="linearGradient-2">
+                    <stop stop-color="#033866" offset="0%"></stop>
+                    <stop stop-color="#000000" offset="100%"></stop>
+                </linearGradient>
+                <radialGradient cx="50%" cy="130%" r="70%" fx="50%" fy="100%" id="linearGradient-3">
+                    <stop stop-color="#F79D0B" offset="0%"></stop>
+                    <stop stop-color="#CF6400" offset="100%"></stop>
+                </radialGradient>
+                <filter id="blurMe">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+                </filter>
+            </defs>
+            <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Group" fill-rule="nonzero">
+                    <rect id="Sky" stroke="#979797" fill="url(#linearGradient-1)" x="0" y="0" width="731" height="731"></rect>
+
+                    <rect id="NightSky" fill="url(#linearGradient-2)" opacity="0.0" x="0" y="0" width="731" height="731"></rect>
+                    <rect id="OrangeSky" fill="url(#linearGradient-3)" opacity="0.0" x="0" y="0" width="731" height="731"></rect>
+                    <g id="Stars" transform="translate(230, 50)" fill="#FFFFFF" opacity="0.0">
+                        <polygon id="star_18" transform="translate(280.500000, 202.738729) scale(-1, -1) translate(-280.500000, -202.738729) "
+                            points="280.5 204.227458 279.030537 205 279.311179 203.363729 278.122359 202.204916 279.765268 201.966187 280.5 200.477458 281.234732 201.966187 282.877641 202.204916 281.688821 203.363729 281.969463 205"></polygon>
+                        <polygon id="star_17" transform="translate(249.500000, 308.738729) scale(-1, -1) translate(-249.500000, -308.738729) "
+                            points="249.5 310.227458 248.030537 311 248.311179 309.363729 247.122359 308.204915 248.765268 307.966186 249.5 306.477458 250.234732 307.966186 251.877641 308.204915 250.688821 309.363729 250.969463 311"></polygon>
+                        <polygon id="star_16" transform="translate(329.500000, 287.738729) scale(-1, -1) translate(-329.500000, -287.738729) "
+                            points="329.5 289.227458 328.030537 290 328.311179 288.363729 327.122359 287.204915 328.765268 286.966186 329.5 285.477458 330.234732 286.966186 331.877641 287.204915 330.688821 288.363729 330.969463 290"></polygon>
+                        <polygon id="star_15" transform="translate(190.500000, 259.738729) scale(-1, -1) translate(-190.500000, -259.738729) "
+                            points="190.5 261.227458 189.030537 262 189.311179 260.363729 188.122359 259.204916 189.765268 258.966187 190.5 257.477458 191.234732 258.966187 192.877641 259.204916 191.688821 260.363729 191.969463 262"></polygon>
+                        <polygon id="star_14" transform="translate(126.500000, 227.738729) scale(-1, -1) translate(-126.500000, -227.738729) "
+                            points="126.5 229.227458 125.030537 230 125.311179 228.363729 124.122359 227.204916 125.765268 226.966187 126.5 225.477458 127.234732 226.966187 128.877641 227.204916 127.688821 228.363729 127.969463 230"></polygon>
+                        <polygon id="star_13" transform="translate(107.500000, 264.738729) scale(-1, -1) translate(-107.500000, -264.738729) "
+                            points="107.5 266.227458 106.030537 267 106.311179 265.363729 105.122359 264.204916 106.765268 263.966187 107.5 262.477458 108.234732 263.966187 109.877641 264.204916 108.688821 265.363729 108.969463 267"></polygon>
+                        <polygon id="star_12" transform="translate(130.500000, 335.738729) scale(-1, -1) translate(-130.500000, -335.738729) "
+                            points="130.5 337.227458 129.030537 338 129.311179 336.363729 128.122359 335.204915 129.765268 334.966186 130.5 333.477458 131.234732 334.966186 132.877641 335.204915 131.688821 336.363729 131.969463 338"></polygon>
+                        <polygon id="star_11" transform="translate(7.500000, 303.738729) scale(-1, -1) translate(-7.500000, -303.738729) "
+                            points="7.5 305.227458 6.030537 306 6.311179 304.363729 5.122359 303.204915 6.765268 302.966186 7.5 301.477458 8.234732 302.966186 9.877641 303.204915 8.688821 304.363729 8.969463 306"></polygon>
+                        <polygon id="star_10" transform="translate(2.500000, 232.738729) scale(-1, -1) translate(-2.500000, -232.738729) "
+                            points="2.5 234.227458 1.030537 235 1.311179 233.363729 0.122359 232.204916 1.765268 231.966187 2.5 230.477458 3.234732 231.966187 4.877641 232.204916 3.688821 233.363729 3.969463 235"></polygon>
+                        <polygon id="star_9" points="53.5 136.75 52.0305369 137.522542 52.3111794 135.886271 51.1223587 134.727458 52.7652684 134.488729 53.5 133 54.2347316 134.488729 55.8776413 134.727458 54.6888206 135.886271 54.9694631 137.522542"></polygon>
+                        <polygon id="star_8" points="84.5 30.75 83.030537 31.5225425 83.311179 29.8862712 82.122359 28.7274575 83.765268 28.4887288 84.5 27 85.234732 28.4887288 86.877641 28.7274575 85.688821 29.8862712 85.969463 31.5225425"></polygon>
+                        <polygon id="star_7" points="4.5 51.75 3.0305369 52.5225425 3.3111794 50.8862712 2.1223587 49.7274575 3.7652684 49.4887288 4.5 48 5.2347316 49.4887288 6.8776413 49.7274575 5.6888206 50.8862712 5.9694631 52.5225425"></polygon>
+                        <polygon id="star_6" points="143.5 79.75 142.030537 80.522542 142.311179 78.886271 141.122359 77.727458 142.765268 77.488729 143.5 76 144.234732 77.488729 145.877641 77.727458 144.688821 78.886271 144.969463 80.522542"></polygon>
+                        <polygon id="star_5" points="207.5 111.75 206.030537 112.522542 206.311179 110.886271 205.122359 109.727458 206.765268 109.488729 207.5 108 208.234732 109.488729 209.877641 109.727458 208.688821 110.886271 208.969463 112.522542"></polygon>
+                        <polygon id="star_4" points="226.5 74.75 225.030537 75.522542 225.311179 73.886271 224.122359 72.727458 225.765268 72.488729 226.5 71 227.234732 72.488729 228.877641 72.727458 227.688821 73.886271 227.969463 75.522542"></polygon>
+                        <polygon id="star_3" points="203.5 3.75 202.030537 4.5225425 202.311179 2.8862712 201.122359 1.7274575 202.765268 1.4887288 203.5 0 204.234732 1.4887288 205.877641 1.7274575 204.688821 2.8862712 204.969463 4.5225425"></polygon>
+                        <polygon id="star_2" points="326.5 35.75 325.030537 36.5225425 325.311179 34.8862712 324.122359 33.7274575 325.765268 33.4887288 326.5 32 327.234732 33.4887288 328.877641 33.7274575 327.688821 34.8862712 327.969463 36.5225425"></polygon>
+                        <polygon id="star_1" points="331.5 106.75 330.030537 107.522542 330.311179 105.886271 329.122359 104.727458 330.765268 104.488729 331.5 103 332.234732 104.488729 333.877641 104.727458 332.688821 105.886271 332.969463 107.522542"></polygon>
+                    </g>
+                    <line id="Comet" x1='0' y1='0' x2='0' y2='0' stroke="#FFFFFF" stroke-width="2" opacity="0.5"></line>
+                    <g id="Sun" transform="translate(365, 350)">
+                        <circle id="Oval-Copy" class="aura" opacity=".1" fill="#F8F8F2" cx="0" cy="0" r="105"></circle>
+                        <circle id="Oval-Copy-2" class="aura" opacity=".15" fill="#F8F8F2" cx="0" cy="0" r="95"></circle>
+                        <circle id="Oval-Copy-3" class="aura" opacity=".2" fill="#F8F8F2" cx="0" cy="0" r="85"></circle>
+                        <circle id="afternoon-sun" fill="#FAF4A9" cx="0" cy="0" r="73.5"></circle>
+                        <circle id="evening-sun" opacity="0" fill="#F8A200" filter="url(#blurMe)" cx="0" cy="0" r="73.5"></circle>
+                    </g>
+                    <g id="Moon" transform="translate(365, -160) scale(.1, .1)">
+                        <circle cx="0" cy="0" r="77" style="fill: #e6e6e6" />
+                        <circle cx="-22" cy="-37" r="10" style="fill: #ccc" />
+                        <circle cx="-27" cy="13" r="7" style="fill: #ccc" />
+                        <circle cx="13" cy="-11" r="3" style="fill: #ccc" />
+                        <circle cx="23" cy="-30" r="9" style="fill: #ccc" />
+                        <circle cx="24" cy="50" r="14" style="fill: #ccc" />
+                        <circle cx="-2" cy="20" r="3" style="fill: #ccc" />
+                        <circle cx="-57" cy="-17" r="6" style="fill: #ccc" />
+                        <circle cx="-47" cy="50" r="5" style="fill: #ccc" />
+                        <circle cx="20" cy="8" r="8" style="fill: #ccc" />
+                    </g>
+                    <g id="Clouds" opacity="1">
+                        <g id="Cloud_1" transform="translate(-100, 228.000000)" fill="#FFFFFF" opacity="0.9">
+                            <ellipse id="Oval" cx="68.5" cy="30" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="124.5" cy="90" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="104.5" cy="53" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="161.5" cy="53" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="46.5" cy="70" rx="46.5" ry="30"></ellipse>
+                        </g>
+                        <g id="Cloud_2" transform="translate(195.000000, 376.000000)" fill="#FFFFFF" opacity="0.9">
+                            <ellipse id="Oval" cx="114.5" cy="50" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="139.5" cy="73" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="46.5" cy="60" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="161.5" cy="30" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="92.5" cy="90" rx="46.5" ry="30"></ellipse>
+                        </g>
+                        <g id="Cloud_3" transform="translate(450.000000, 181.000000)" fill="#FFFFFF" opacity="0.9">
+                            <ellipse id="Oval" cx="114.5" cy="30" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="139.5" cy="53" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="46.5" cy="40" rx="46.5" ry="30"></ellipse>
+                            <ellipse id="Oval" cx="73.5" cy="53" rx="46.5" ry="30"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Mountains" transform="translate(-1.000000, 605.000000)" fill-rule="nonzero" opacity="1">
+                        <polygon id="mountain_7" fill="#234001" points="422.5 37 526 130 319 130"></polygon>
+                        <polygon id="mountain_7-copy" fill="#234001" points="563.5 10 646 120 481 120"></polygon>
+                        <polygon id="mountain_6" fill="#223F00" points="273.5 0 411 130 136 130"></polygon>
+                        <polygon id="mountain_6-copy" fill="#223F00" points="0.5 37 138 130 0.5 130"></polygon>
+                        <polygon id="mountain_5" fill="#294C00" points="164.5 27 268 130 61 130"></polygon>
+                        <polygon id="mountain_5-copy" fill="#294C00" points="663 53 733 130 593 130"></polygon>
+                        <polygon id="mountain_4" fill="#294C00" points="371.5 27 475 130 268 130"></polygon>
+                        <polygon id="mountain_3" fill="#3A6A03" points="330.5 27 434 130 227 130"></polygon>
+                        <polygon id="mountain_3-copy" fill="#3A6A03" points="616 65 731 130 501 130"></polygon>
+                        <polygon id="mountain_3-copy-2" fill="#3A6A03" points="489.5 45 593 130 386 130"></polygon>
+                        <polygon id="mountain_3-copy-3" fill="#3A6A03" points="733.5 45 734 130 630 130"></polygon>
+                        <polygon id="mountain_2" fill="#468300" points="104.5 37 208 130 1 130"></polygon>
+                        <polygon id="mountain_1" fill="#4F9103" points="239.5 53 343 130 136 130"></polygon>
+                        <polygon id="mountain_1-copy" fill="#4F9103" points="434.5 79 538 130 331 130"></polygon>
+                        <polygon id="mountain_1-copy-2" fill="#4F9103" points="657 79 733 130 581 130"></polygon>
+                    </g>
+                    <g id="Grass">
+                        <rect x='0' y='700' width="731" height='32' fill="url(#grassGradient)"></rect>
+                    </g>
+                    <g id="ShadowMountains" transform="translate(-1.000000, 605.000000)" fill-rule="nonzero" opacity="0">
+                        <polygon id="mountain_7" fill="#000000" points="422.5 37 526 130 319 130"></polygon>
+                        <polygon id="mountain_7-copy" fill="#000000" points="563.5 10 646 120 481 120"></polygon>
+                        <polygon id="mountain_6" fill="#000000" points="273.5 0 411 130 136 130"></polygon>
+                        <polygon id="mountain_6-copy" fill="#000000" points="0.5 37 138 130 0.5 130"></polygon>
+                        <polygon id="mountain_5" fill="#000000" points="164.5 27 268 130 61 130"></polygon>
+                        <polygon id="mountain_5-copy" fill="#000000" points="663 53 733 130 593 130"></polygon>
+                        <polygon id="mountain_4" fill="#000000" points="371.5 27 475 130 268 130"></polygon>
+                        <polygon id="mountain_3" fill="#000000" points="330.5 27 434 130 227 130"></polygon>
+                        <polygon id="mountain_3-copy" fill="#000000" points="616 65 731 130 501 130"></polygon>
+                        <polygon id="mountain_3-copy-2" fill="#000000" points="489.5 45 593 130 386 130"></polygon>
+                        <polygon id="mountain_3-copy-3" fill="#000000" points="733.5 45 734 130 630 130"></polygon>
+                        <polygon id="mountain_2" fill="#000000" points="104.5 37 208 130 1 130"></polygon>
+                        <polygon id="mountain_1" fill="#000000" points="239.5 53 343 130 136 130"></polygon>
+                        <polygon id="mountain_1-copy" fill="#000000" points="434.5 79 538 130 331 130"></polygon>
+                        <polygon id="mountain_1-copy-2" fill="#000000" points="657 79 733 130 581 130"></polygon>
+                    </g>
+
+
+
+                </g>
+            </g>
+        </svg>
