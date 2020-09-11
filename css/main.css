@@ -19,8 +19,8 @@ body {
 }
 
 .svgHolder {
-    width: 50vmin;
-    height: 50vmin;
+    width: 60vmin;
+    height: 60vmin;
     max-width: 700px;
     overflow: hidden;
     border-radius: 5%;
